@@ -1,0 +1,14 @@
+{
+  "name": "exer_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./build/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.3"
+  }
+}
